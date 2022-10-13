@@ -13,7 +13,6 @@ type Article struct{}
 func NewArticle() Article {
 	return Article{}
 }
-
 func (a Article) Get(c *gin.Context) {
 	app.NewResponse(c).ToErrorResponse(errcode.ServerError)
 }
