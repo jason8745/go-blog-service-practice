@@ -6,6 +6,8 @@ type Tag struct {
 	State uint8  `json:"state"`
 }
 
+
+//Tag function
 func (t Tag) TableName() string {
 	return "blog_tag"
 }

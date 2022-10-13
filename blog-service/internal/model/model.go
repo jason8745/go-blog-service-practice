@@ -10,3 +10,5 @@ type Model struct {
 	DeletedOn  uint32 `json:"deleted_on"`
 	IsDel      uint8  `json:"is_del"`
 }
+
+

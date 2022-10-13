@@ -2,7 +2,7 @@ package v1
 
 import "github.com/gin-gonic/gin"
 
-//對應路由的處理方法
+//Article路由的Handler
 type Article struct{}
 
 func NewArticle() Article {
