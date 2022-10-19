@@ -13,4 +13,4 @@ func (a Article) TableName() string {
 	return "blog_article"
 }
 
-//test
+//test wen
