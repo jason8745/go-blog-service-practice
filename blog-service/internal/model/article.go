@@ -12,3 +12,5 @@ type Article struct {
 func (a Article) TableName() string {
 	return "blog_article"
 }
+
+//test
