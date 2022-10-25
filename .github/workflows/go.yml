@@ -25,7 +25,6 @@ jobs:
         cd blog-service
         pwd
         go fmt  .
-        go vt   .
 
     - name: Build
       run: |
