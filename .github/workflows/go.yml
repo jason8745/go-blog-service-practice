@@ -20,11 +20,13 @@ jobs:
       uses: actions/setup-go@v3
       with:
         go-version: 1.19
-
+    - name: change workspace
+      run: cd blog-service
     - name: Run Linting
       run: |
-        go fmt  ./blog-service/...
-        go vt   ./blog-service/...
+        go fmt  .
+        go vt   .
 
     - name: Build
-      run: go build -v ./blog-service/...
+      run: |
+        go build .
