@@ -23,11 +23,9 @@ jobs:
     - name: Run Linting
       run: |
         cd blog-service
-        pwd
         go fmt  .
 
     - name: Build
       run: |
         cd blog-service
-        pwd
         go build .
